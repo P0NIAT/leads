@@ -21,9 +21,9 @@ const ChatWidget: React.FC = () => {
   const [messages, setMessages] = useState<Message[]>([
     {
       id: '1',
-      text: 'Cześć! Jestem Twoim asystentem beauty. Jak mogę Ci dziś pomóc?',
+      text: 'Hejka! 👋 Miło, że jesteś tutaj. Jak mogę Ci dziś pomóc?',
       isUser: false,
-      timestamp: new Date(),
+      timestamp: new Date(),     
     }
   ]);
   const [currentMessage, setCurrentMessage] = useState('');
