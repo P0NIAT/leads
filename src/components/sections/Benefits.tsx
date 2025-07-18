@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const Benefits: React.FC = () => {
@@ -10,8 +9,8 @@ const Benefits: React.FC = () => {
           <path d="M24 8v16l8 8" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
         </svg>
       ),
-      title: "24/7 Availability",
-      description: "Never miss a potential booking again. Your AI agent works around the clock."
+      title: "Dostępność 24/7",
+      description: "Nigdy więcej utraconych rezerwacji. Twój agent AI pracuje przez całą dobę."
     },
     {
       icon: (
@@ -20,8 +19,8 @@ const Benefits: React.FC = () => {
           <circle cx="24" cy="24" r="8" fill="currentColor"/>
         </svg>
       ),
-      title: "Your Writing Style",
-      description: "AI learns and mimics your personal communication style perfectly."
+      title: "Twój styl pisania",
+      description: "AI uczy się i idealnie naśladuje Twój sposób komunikacji."
     },
     {
       icon: (
@@ -29,8 +28,8 @@ const Benefits: React.FC = () => {
           <path d="M8 24h32M24 8l16 16-16 16" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
         </svg>
       ),
-      title: "Instant Responses",
-      description: "Customers get immediate answers, leading to higher conversion rates."
+      title: "Natychmiastowe odpowiedzi",
+      description: "Klienci otrzymują odpowiedzi od razu, co zwiększa współczynnik konwersji."
     },
     {
       icon: (
@@ -39,8 +38,8 @@ const Benefits: React.FC = () => {
           <path d="M18 24l6 6 12-12" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
         </svg>
       ),
-      title: "Higher Bookings",
-      description: "Convert more visitors into paying customers with intelligent automation."
+      title: "Więcej rezerwacji",
+      description: "Zamieniaj odwiedzających w płacących klientów dzięki inteligentnej automatyzacji."
     }
   ];
 
@@ -49,10 +48,10 @@ const Benefits: React.FC = () => {
       <div className="safe-zone">
         <div className="text-center mb-16">
           <h2 className="font-montserrat font-bold text-4xl md:text-5xl text-beauty-purple mb-6">
-            Everything Your <span className="text-beauty-pink">Beauty Business</span> Needs
+            Wszystko, czego potrzebuje <span className="text-beauty-pink">Twój salon piękności</span>
           </h2>
           <p className="text-xl text-beauty-purple max-w-3xl mx-auto">
-            Designed specifically for salon owners who want to focus on what they love most—making clients beautiful
+            Zaprojektowane specjalnie dla właścicieli salonów, którzy chcą skupić się na tym, co kochają najbardziej — upiększaniu klientów
           </p>
         </div>
 
