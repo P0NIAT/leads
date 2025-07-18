@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import Logo from '../Logo';
 import { Button } from '@/components/ui/button';
@@ -39,14 +38,13 @@ const Footer: React.FC = () => {
 
       if (error) {
         console.error('Error sending email:', error);
-        toast.error('Failed to send message. Please try again.');
+        toast.error('Nie udało się wysłać wiadomości. Spróbuj ponownie.');
         return;
       }
 
       console.log('Email sent successfully:', data);
-      toast.success('Message sent successfully! We\'ll get back to you soon.');
+      toast.success('Wiadomość została wysłana! Skontaktujemy się z Tobą wkrótce.');
       
-      // Reset form
       setFormData({
         name: '',
         email: '',
@@ -55,7 +53,7 @@ const Footer: React.FC = () => {
       });
     } catch (error) {
       console.error('Error submitting form:', error);
-      toast.error('Failed to send message. Please try again.');
+      toast.error('Nie udało się wysłać wiadomości. Spróbuj ponownie.');
     } finally {
       setIsSubmitting(false);
     }
@@ -77,7 +75,7 @@ const Footer: React.FC = () => {
         <div className="max-w-2xl mx-auto">
           <div className="bg-white/10 backdrop-blur-sm rounded-3xl p-8 border border-white/20">
             <h3 className="font-montserrat font-bold text-2xl text-center mb-6 text-beauty-cream">
-              Get in Touch
+              Skontaktuj się z nami
             </h3>
             
             {/* Email Address Button */}
@@ -95,7 +93,7 @@ const Footer: React.FC = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div>
                   <Label htmlFor="name" className="text-beauty-cream font-medium mb-2 block">
-                    Name *
+                    Imię i nazwisko *
                   </Label>
                   <Input
                     id="name"
@@ -106,13 +104,13 @@ const Footer: React.FC = () => {
                     required
                     disabled={isSubmitting}
                     className="bg-white/20 border-white/30 text-white placeholder:text-white/70 focus:border-beauty-cream focus:ring-beauty-cream"
-                    placeholder="Your full name"
+                    placeholder="Twoje imię i nazwisko"
                   />
                 </div>
                 
                 <div>
                   <Label htmlFor="email" className="text-beauty-cream font-medium mb-2 block">
-                    Email Address *
+                    Adres e-mail *
                   </Label>
                   <Input
                     id="email"
@@ -123,14 +121,14 @@ const Footer: React.FC = () => {
                     required
                     disabled={isSubmitting}
                     className="bg-white/20 border-white/30 text-white placeholder:text-white/70 focus:border-beauty-cream focus:ring-beauty-cream"
-                    placeholder="your@email.com"
+                    placeholder="twoj@email.com"
                   />
                 </div>
               </div>
 
               <div>
                 <Label htmlFor="phone" className="text-beauty-cream font-medium mb-2 block">
-                  Phone Number
+                  Numer telefonu
                 </Label>
                 <Input
                   id="phone"
@@ -146,7 +144,7 @@ const Footer: React.FC = () => {
 
               <div>
                 <Label htmlFor="message" className="text-beauty-cream font-medium mb-2 block">
-                  Message *
+                  Wiadomość *
                 </Label>
                 <Textarea
                   id="message"
@@ -157,7 +155,7 @@ const Footer: React.FC = () => {
                   rows={4}
                   disabled={isSubmitting}
                   className="bg-white/20 border-white/30 text-white placeholder:text-white/70 focus:border-beauty-cream focus:ring-beauty-cream resize-none"
-                  placeholder="Tell us how we can help your business..."
+                  placeholder="Napisz, jak możemy pomóc Twojej firmie..."
                 />
               </div>
 
@@ -166,7 +164,7 @@ const Footer: React.FC = () => {
                 disabled={isSubmitting}
                 className="w-full bg-beauty-cream text-beauty-purple hover:bg-white font-montserrat font-semibold py-3 px-6 rounded-xl transition-all duration-300 hover:transform hover:scale-105 disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none"
               >
-                {isSubmitting ? 'Sending...' : 'Send Message'}
+                {isSubmitting ? 'Wysyłanie...' : 'Wyślij wiadomość'}
               </Button>
             </form>
           </div>
@@ -174,7 +172,7 @@ const Footer: React.FC = () => {
 
         {/* Copyright */}
         <div className="border-t border-white/20 pt-6 mt-8 text-center">
-          <p className="text-gray-200">© 2025 Smart Leads AI. All rights reserved.</p>
+          <p className="text-gray-200">© 2025 Smart Leads AI. Wszelkie prawa zastrzeżone.</p>
         </div>
       </div>
     </footer>
