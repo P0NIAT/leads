@@ -138,7 +138,7 @@ const Footer: React.FC = () => {
                   onChange={handleInputChange}
                   disabled={isSubmitting}
                   className="bg-white/20 border-white/30 text-white placeholder:text-white/70 focus:border-beauty-cream focus:ring-beauty-cream"
-                  placeholder="07123 456789"
+                  placeholder="501234567"
                 />
               </div>
 
