@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import VideoPlayer from '../VideoPlayer';
@@ -14,7 +13,6 @@ const Hero: React.FC = () => {
   };
 
   const openChatWidget = () => {
-    // This will trigger the chat widget to open
     const chatWidget = document.querySelector('[data-chat-widget]') as HTMLElement;
     if (chatWidget) {
       chatWidget.click();
@@ -29,16 +27,16 @@ const Hero: React.FC = () => {
           <div className="text-center mb-12">
             <h1 className="font-montserrat font-bold text-white mb-6 leading-tight">
               <span className="block text-4xl md:text-6xl lg:text-7xl">
-                <span className="text-beauty-lavender">AI</span> That Speaks
+                <span className="text-beauty-lavender">AI</span>, które mówi
               </span>
               <span className="block text-3xl md:text-4xl lg:text-5xl mt-2">
-                <span className="text-beauty-lavender">Your Beauty Language</span>
+                <span className="text-beauty-lavender">językiem Twojego piękna</span>
               </span>
             </h1>
             
             <p className="text-xl md:text-2xl text-beauty-cream max-w-4xl mx-auto leading-relaxed">
-              Get More Bookings with AI<br />
-              Agents that chat just like you
+              Zdobądź więcej rezerwacji dzięki AI<br />
+              Agentom, którzy rozmawiają jak Ty
             </p>
           </div>
 
@@ -54,17 +52,17 @@ const Hero: React.FC = () => {
           {/* Subtext and CTAs */}
           <div className="text-center">
             <p className="text-lg md:text-xl text-beauty-cream mb-8 max-w-3xl mx-auto">
-              24/7 automated booking, customer support, and lead qualification. 
-              Your AI agent learns your voice and handles conversations just like you would.
+              Automatyczne rezerwacje, obsługa klienta i kwalifikacja leadów 24/7. 
+              Twój agent AI uczy się Twojego stylu i prowadzi rozmowy tak jak Ty.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <Button onClick={() => scrollToSection('book-consultation')} size="lg" className="bg-beauty-lavender hover:bg-beauty-purple text-white font-montserrat font-bold px-8 py-4 text-lg transition-all duration-300 transform hover:scale-105">
-                Book Consultation
+                Zarezerwuj konsultację
               </Button>
               
               <Button onClick={openChatWidget} variant="outline" size="lg" className="border-2 border-beauty-lavender text-beauty-lavender hover:bg-beauty-lavender hover:text-white font-montserrat font-bold px-8 py-4 text-lg transition-all duration-300 transform hover:scale-105">
-                Test Agent Now
+                Przetestuj agenta
               </Button>
             </div>
           </div>
