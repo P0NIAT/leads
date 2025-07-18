@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const BookConsultation: React.FC = () => {
@@ -7,10 +6,10 @@ const BookConsultation: React.FC = () => {
       <div className="safe-zone">
         <div className="text-center mb-16">
           <h2 className="font-montserrat font-bold text-4xl md:text-5xl text-white mb-6">
-            Book Your <span className="text-beauty-lavender">Free Consultation</span>
+            Zarezerwuj <span className="text-beauty-lavender">darmową konsultację</span>
           </h2>
           <p className="text-xl text-beauty-cream max-w-3xl mx-auto">
-            Ready to transform your business with AI? Schedule a free consultation to discuss your needs and see how our AI agents can boost your bookings.
+            Gotowy, by odmienić swój biznes dzięki AI? Umów się na bezpłatną konsultację, aby omówić swoje potrzeby i zobaczyć, jak nasi agenci AI mogą zwiększyć liczbę Twoich rezerwacji.
           </p>
         </div>
 
@@ -29,7 +28,7 @@ const BookConsultation: React.FC = () => {
           
           <div className="text-center mt-8">
             <p className="text-beauty-lavender font-medium">
-              ✨ No commitment required • 30-minute session • Personalized recommendations
+              ✨ Bez zobowiązań • 30-minutowa sesja • Spersonalizowane rekomendacje
             </p>
           </div>
         </div>
