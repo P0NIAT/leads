@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 
 const Testimonials: React.FC = () => {
@@ -8,8 +7,8 @@ const Testimonials: React.FC = () => {
     {
       name: "Amelia Jones",
       business: "Radiance Beauty Spa",
-      location: "London",
-      quote: "Smart Leads AI has transformed our customer service. The AI sounds exactly like me - our clients can't tell the difference!",
+      location: "Londyn",
+      quote: "Smart Leads AI odmieniło naszą obsługę klienta. AI brzmi dokładnie jak ja — klienci nie zauważają różnicy!",
       rating: 5,
       avatar: "https://kqiueydxpgxcqelzuosu.supabase.co/storage/v1/object/public/pictures//owner1.jpg"
     },
@@ -17,7 +16,7 @@ const Testimonials: React.FC = () => {
       name: "Isla Robinson", 
       business: "Elite Hair Studio",
       location: "Birmingham",
-      quote: "We've seen an increase in bookings since implementing AI Agent. It's like having a dedicated receptionist 24/7.",
+      quote: "Zauważyliśmy wzrost liczby rezerwacji od czasu wdrożenia Agenta AI. To jak posiadanie recepcjonistki 24/7.",
       rating: 5,
       avatar: "https://kqiueydxpgxcqelzuosu.supabase.co/storage/v1/object/public/pictures//owner2.jpg"
     },
@@ -25,7 +24,7 @@ const Testimonials: React.FC = () => {
       name: "Sophie Chen",
       business: "Zen Wellness Clinic", 
       location: "Manchester",
-      quote: "The personalization is incredible. The AI agent maintains our brand voice perfectly across all customer interactions.",
+      quote: "Personalizacja jest niesamowita. Agent AI doskonale utrzymuje ton naszej marki we wszystkich interakcjach z klientem.",
       rating: 5,
       avatar: "https://kqiueydxpgxcqelzuosu.supabase.co/storage/v1/object/public/pictures//owner3.jpg"
     }
@@ -44,10 +43,10 @@ const Testimonials: React.FC = () => {
       <div className="safe-zone">
         <div className="text-center mb-16">
           <h2 className="font-montserrat font-bold text-4xl md:text-5xl text-white mb-6">
-            What Our <span className="text-beauty-lavender">Clients</span> Say
+            Co mówią <span className="text-beauty-lavender">nasi klienci</span>
           </h2>
           <p className="text-xl text-beauty-cream max-w-3xl mx-auto">
-            Join hundreds of beauty businesses already growing with Smart Leads AI
+            Dołącz do setek salonów beauty, które rozwijają się dzięki Smart Leads AI
           </p>
         </div>
 
