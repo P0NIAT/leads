@@ -5,12 +5,12 @@ const Pricing: React.FC = () => {
   const plans = [
     {
       name: "Starter",
-      price: "£49",
+      price: "249zł",
       period: "/miesiąc*",
       description: "Uruchom swoją pierwszą automatyzację — idealne dla nowych lub małych firm, które chcą zaoszczędzić czas i zdobyć pierwszych klientów.",
       features: [
-        "1 agent AI",
-        "1 asystent social media",
+        "1 Agent AI",
+        "1 Asystent social media",
         "1 aktualizacja miesięcznie",
         "500 konwersacji/miesiąc",
         "HubSpot CRM",
@@ -22,13 +22,13 @@ const Pricing: React.FC = () => {
     },
     {
       name: "Premium", 
-      price: "£99",
+      price: "495zł",
       period: "/miesiąc*",
       description: "Odblokuj potężne narzędzia i inteligentniejsze przepływy pracy, zaprojektowane z myślą o rozwijających się salonach beauty.",
       features: [
-        "3 agentów AI",
-        "3 asystentów social media", 
-        "3 aktualizacje miesięcznie",
+        "3 Agentów AI",
+        "3 Asystentów social media", 
+        "3 Aktualizacje miesięcznie",
         "1 500 konwersacji/miesiąc",
         "HubSpot CRM",
         "Możliwość anulowania w każdej chwili"
@@ -39,14 +39,14 @@ const Pricing: React.FC = () => {
     },
     {
       name: "Ultimate",
-      price: "£399",
+      price: "1995zł",
       period: "/miesiąc*",
       description: "Kompletny pakiet oparty na realnym doświadczeniu – automatyzacja, analizy i wzrost dla ambitnych salonów.",
       features: [
-        "1 głosowy asystent AI",
-        "5 agentów AI",
-        "5 asystentów social media",
-        "5 aktualizacji miesięcznie", 
+        "1 Głosowy Asystent AI",
+        "5 Agentów AI",
+        "5 Asystentów social media",
+        "5 Aktualizacji miesięcznie", 
         "Nielimitowane konwersacje",
         "CRM do wyboru",
         "Możliwość anulowania w każdej chwili"
