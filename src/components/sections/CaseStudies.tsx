@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const CaseStudies: React.FC = () => {
@@ -7,16 +6,16 @@ const CaseStudies: React.FC = () => {
       business: "Best Nails",
       location: "Northampton, UK",
       metric: "+22%",
-      description: "Monthly Bookings",
-      details: "Increased customer engagement through 24/7 AI chat support, resulting in significantly more bookings.",
+      description: "Rezerwacje miesięczne",
+      details: "Większe zaangażowanie klientów dzięki całodobowemu wsparciu AI na czacie, co przełożyło się na znacznie więcej rezerwacji.",
       image: "https://kqiueydxpgxcqelzuosu.supabase.co/storage/v1/object/public/pictures//logoBestNails.png"
     },
     {
       business: "Bella Hair Salon", 
       location: "Manchester, UK",
       metric: "+17%",
-      description: "Monthly Bookings", 
-      details: "Automated appointment scheduling and customer inquiries led to improved booking conversion rates.",
+      description: "Rezerwacje miesięczne", 
+      details: "Zautomatyzowane zapisy i odpowiedzi na zapytania klientów poprawiły współczynnik konwersji rezerwacji.",
       image: "https://kqiueydxpgxcqelzuosu.supabase.co/storage/v1/object/public/pictures//logoChair.png"
     }
   ];
@@ -26,10 +25,10 @@ const CaseStudies: React.FC = () => {
       <div className="safe-zone">
         <div className="text-center mb-16">
           <h2 className="font-montserrat font-bold text-4xl md:text-5xl text-white mb-6">
-            Real <span className="text-beauty-lavender">Results</span> from Real Businesses
+            Prawdziwe <span className="text-beauty-lavender">wyniki</span> prawdziwych firm
           </h2>
           <p className="text-xl text-beauty-cream max-w-3xl mx-auto">
-            See how beauty businesses like yours are thriving with Smart Leads AI
+            Zobacz, jak firmy z branży beauty rozwijają się dzięki Smart Leads AI
           </p>
         </div>
 
