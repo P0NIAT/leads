@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Button } from '@/components/ui/button';
 
@@ -7,15 +6,15 @@ const Pricing: React.FC = () => {
     {
       name: "Starter",
       price: "£49",
-      period: "/month*",
-      description: "Get your first automation up and running – perfect for new or small businesses looking to save time and attract their first clients.",
+      period: "/miesiąc*",
+      description: "Uruchom swoją pierwszą automatyzację — idealne dla nowych lub małych firm, które chcą zaoszczędzić czas i zdobyć pierwszych klientów.",
       features: [
-        "1 AI agent",
-        "1 Social Media Assistant",
-        "1 Update a Month",
-        "500 conversations/month",
+        "1 agent AI",
+        "1 asystent social media",
+        "1 aktualizacja miesięcznie",
+        "500 konwersacji/miesiąc",
         "HubSpot CRM",
-        "Cancel anytime"
+        "Możliwość anulowania w każdej chwili"
       ],
       popular: false,
       bgColor: "bg-white",
@@ -24,15 +23,15 @@ const Pricing: React.FC = () => {
     {
       name: "Premium", 
       price: "£99",
-      period: "/month*",
-      description: "Unlock powerful tools and smarter workflows designed to help growing beauty businesses boost bookings and stay organized.",
+      period: "/miesiąc*",
+      description: "Odblokuj potężne narzędzia i inteligentniejsze przepływy pracy, zaprojektowane z myślą o rozwijających się salonach beauty.",
       features: [
-        "3 AI Agents",
-        "3 Social Media Assistants", 
-        "3 updates a month",
-        "1,500 conversations/month",
+        "3 agentów AI",
+        "3 asystentów social media", 
+        "3 aktualizacje miesięcznie",
+        "1 500 konwersacji/miesiąc",
         "HubSpot CRM",
-        "Cancel anytime"
+        "Możliwość anulowania w każdej chwili"
       ],
       popular: true,
       bgColor: "bg-beauty-pink/10",
@@ -41,16 +40,16 @@ const Pricing: React.FC = () => {
     {
       name: "Ultimate",
       price: "£399",
-      period: "/month*",
-      description: "Our all‑in‑one package—built on real‑world experience to deliver automation, insights, and growth for ambitious salons.",
+      period: "/miesiąc*",
+      description: "Kompletny pakiet oparty na realnym doświadczeniu – automatyzacja, analizy i wzrost dla ambitnych salonów.",
       features: [
-        "1 AI Voice Assistant",
-        "5 AI Agents",
-        "5 Social Media Assistants",
-        "5 Updates a month", 
-        "Unlimited conversations",
-        "CRM of your choice",
-        "Cancel anytime"
+        "1 głosowy asystent AI",
+        "5 agentów AI",
+        "5 asystentów social media",
+        "5 aktualizacji miesięcznie", 
+        "Nielimitowane konwersacje",
+        "CRM do wyboru",
+        "Możliwość anulowania w każdej chwili"
       ],
       popular: false,
       bgColor: "bg-beauty-lavender/10",
@@ -70,10 +69,10 @@ const Pricing: React.FC = () => {
       <div className="safe-zone">
         <div className="text-center mb-16">
           <h2 className="font-montserrat font-bold text-4xl md:text-5xl text-beauty-purple mb-6">
-            Simple Pricing for <span className="text-beauty-pink">Beautiful</span> Results
+            Prosty cennik dla <span className="text-beauty-pink">pięknych</span> efektów
           </h2>
           <p className="text-xl text-beauty-purple max-w-3xl mx-auto">
-            Choose the perfect plan to transform your beauty business. All plans include everything you need to get started.
+            Wybierz idealny plan dla swojego salonu. Każdy pakiet zawiera wszystko, czego potrzebujesz na start.
           </p>
         </div>
 
@@ -90,7 +89,7 @@ const Pricing: React.FC = () => {
               {plan.popular && (
                 <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
                   <span className="bg-beauty-pink text-white px-4 py-2 rounded-full font-montserrat font-bold text-sm whitespace-nowrap">
-                    ✨ Most Popular
+                    ✨ Najczęściej wybierany
                   </span>
                 </div>
               )}
@@ -132,15 +131,15 @@ const Pricing: React.FC = () => {
                 onClick={() => scrollToSection('contact')}
                 className="w-full py-4 font-montserrat font-bold text-lg transition-all duration-300 bg-beauty-pink hover:bg-beauty-purple text-white"
               >
-                <span className="hidden md:inline lg:hidden">Choose Plan</span>
-                <span className="md:hidden lg:inline">Choose Your Plan</span>
+                <span className="hidden md:inline lg:hidden">Wybierz plan</span>
+                <span className="md:hidden lg:inline">Wybierz swój plan</span>
               </Button>
             </div>
           ))}
         </div>
 
         <p className="text-center text-beauty-purple mt-8">
-          * + setup fee
+          * + opłata wdrożeniowa
         </p>
       </div>
     </section>
