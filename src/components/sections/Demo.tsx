@@ -1,4 +1,3 @@
-
 import React from 'react';
 import VideoPlayer from '../VideoPlayer';
 
@@ -8,10 +7,10 @@ const Demo: React.FC = () => {
       <div className="safe-zone">
         <div className="text-center mb-16">
           <h2 className="font-montserrat font-bold text-4xl md:text-5xl text-beauty-purple mb-6">
-            See Your Agent in <span className="text-beauty-pink">Action</span>
+            Zobacz swojego agenta w <span className="text-beauty-pink">akcji</span>
           </h2>
           <p className="text-xl text-beauty-purple max-w-3xl mx-auto">
-            Watch how our AI agent handles real customer conversations with the same warmth and professionalism as you would
+            Zobacz, jak nasz agent AI prowadzi prawdziwe rozmowy z klientami — z taką samą życzliwością i profesjonalizmem jak Ty
           </p>
         </div>
 
@@ -24,7 +23,7 @@ const Demo: React.FC = () => {
         </div>
 
         <p className="text-center text-lg text-beauty-purple font-medium">
-          Real conversation between our AI agent and a potential customer
+          Prawdziwa rozmowa między naszym agentem AI a potencjalnym klientem
         </p>
       </div>
     </section>
