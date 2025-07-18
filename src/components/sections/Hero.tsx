@@ -30,7 +30,7 @@ const Hero: React.FC = () => {
                 <span className="text-beauty-lavender">AI</span>, które mówi
               </span>
               <span className="block text-3xl md:text-4xl lg:text-5xl mt-2">
-                <span className="text-beauty-lavender">językiem Twojego piękna</span>
+                <span className="text-beauty-lavender">językiem Twojego salonu piękności</span>
               </span>
             </h1>
             
@@ -52,8 +52,8 @@ const Hero: React.FC = () => {
           {/* Subtext and CTAs */}
           <div className="text-center">
             <p className="text-lg md:text-xl text-beauty-cream mb-8 max-w-3xl mx-auto">
-              Automatyczne rezerwacje, obsługa klienta i kwalifikacja leadów 24/7. 
-              Twój agent AI uczy się Twojego stylu i prowadzi rozmowy tak jak Ty.
+              Automatyczne rezerwacje, obsługa i kwalifikacja klientów 24/7. 
+              Twój Agent AI uczy się Twojego stylu i prowadzi rozmowy tak jak Ty.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -62,7 +62,7 @@ const Hero: React.FC = () => {
               </Button>
               
               <Button onClick={openChatWidget} variant="outline" size="lg" className="border-2 border-beauty-lavender text-beauty-lavender hover:bg-beauty-lavender hover:text-white font-montserrat font-bold px-8 py-4 text-lg transition-all duration-300 transform hover:scale-105">
-                Przetestuj agenta
+                Przetestuj Agenta
               </Button>
             </div>
           </div>
