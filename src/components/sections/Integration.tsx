@@ -6,8 +6,8 @@ const Integration: React.FC = () => {
     { name: "Instagram", icon: Instagram, bgColor: "bg-gradient-to-br from-purple-500 to-pink-500" },
     { name: "Messenger", icon: MessageCircle, bgColor: "bg-gradient-to-br from-blue-500 to-purple-500" },
     { name: "WhatsApp", icon: Phone, bgColor: "bg-green-500" },
-    { name: "Website", icon: Globe, bgColor: "bg-gradient-to-br from-red-500 via-yellow-500 to-green-500" },
-    { name: "Sheets", icon: FileSpreadsheet, bgColor: "bg-green-600" },
+    { name: "Strona WWW", icon: Globe, bgColor: "bg-gradient-to-br from-red-500 via-yellow-500 to-green-500" },
+    { name: "Arkusze Google", icon: FileSpreadsheet, bgColor: "bg-green-600" },
     { name: "HubSpot", icon: Target, bgColor: "bg-orange-500" },
     { name: "Twilio", icon: Mail, bgColor: "bg-red-500" },
     { name: "Calendly", icon: Calendar, bgColor: "bg-blue-500" }
@@ -18,10 +18,10 @@ const Integration: React.FC = () => {
       <div className="safe-zone">
         <div className="text-center mb-16">
           <h2 className="font-montserrat font-bold text-4xl md:text-5xl text-beauty-purple mb-6">
-            Seamless <span className="text-beauty-pink">Integration</span>
+            Bezproblemowa <span className="text-beauty-pink">integracja</span>
           </h2>
           <p className="text-xl text-beauty-purple max-w-3xl mx-auto">
-            Connect with all your favorite tools and platforms in just a few clicks
+            Połącz się ze swoimi ulubionymi narzędziami i platformami w kilka kliknięć
           </p>
         </div>
 
