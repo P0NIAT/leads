@@ -183,7 +183,7 @@ const ChatWidget: React.FC = () => {
             <div className="flex items-center justify-between p-4 border-b bg-gradient-to-r from-beauty-purple to-beauty-pink text-white rounded-t-lg">
               <div className="flex items-center gap-3">
                 <Logo showText={false} size="sm" />
-                <h3 className="font-montserrat font-bold text-lg">Asystent Smart Leads AI</h3>
+                <h3 className="font-montserrat font-bold text-lg">Smart Leads AI</h3>
               </div>
               <Button onClick={() => setIsOpen(false)} variant="ghost" size="icon" className="text-white hover:bg-white/20 h-8 w-8">
                 <X size={20} />
