@@ -49,7 +49,7 @@ const Navigation: React.FC = () => {
             </Button>
             
             <Button variant="outline" onClick={() => scrollToSection('contact')} className="border-beauty-lavender text-beauty-lavender hover:bg-beauty-lavender hover:text-white font-montserrat font-semibold px-6 py-2 transition-all duration-300 transform hover:scale-105">
-              Napisz do nas
+              Kontakt
             </Button>
           </div>
         </div>
